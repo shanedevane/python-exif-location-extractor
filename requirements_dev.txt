@@ -8,3 +8,5 @@ coverage==4.1
 Sphinx==1.4.4
 
 
+# pipreqs /path/project --force
+# pipreqs c:\code\python-exif-location-extractor --force

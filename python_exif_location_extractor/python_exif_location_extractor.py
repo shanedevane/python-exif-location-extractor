@@ -11,7 +11,6 @@ class PythonExifLocationExtractor:
 
     def __init__(self, file_path):
         self._file_path = file_path
-        # self.json = None
         self._json_data = dict()
         self._image = None
         self._pil_tags = dict()
@@ -94,7 +93,3 @@ if __name__ == "__main__":
     extractor = PythonExifLocationExtractor('../Resources/pacers.jpg')
     extractor.execute()
     print(extractor.json)
-
-
-
-
